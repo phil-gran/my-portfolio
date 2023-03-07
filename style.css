@@ -1,0 +1,52 @@
+:root{
+--green: rgb(14, 175, 14);
+--wht: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 50px;
+}
+
+.navbar{
+    background-color: black
+}
+
+.nav-link{
+    font-size: 30px !important;
+}
+
+.nav-link:hover{
+    color: var(--green) !important;
+}
+
+#home{
+    background: black;
+}
+
+#home h1{
+    color: white;
+}
+
+#homeBtn{
+    background: white;
+    font-weight: bold;
+    color: black;
+}
+
+#homeBtn:hover{
+    background: var(--green);
+}
+
+#certificate{
+    background: black;
+    color: green;
+}
+
