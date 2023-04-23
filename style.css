@@ -16,11 +16,12 @@ body::before {
 }
 
 .navbar{
-    background-color: black
+    background-color: black;
+    height: 60px;
 }
 
 .nav-link{
-    font-size: 30px !important;
+    font-size: 20px !important;
 }
 
 .nav-link:hover{
@@ -28,7 +29,14 @@ body::before {
 }
 
 #home{
-    background: black;
+    background: url("https://tinyurl.com/y536tus7") center no-repeat; 
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.829);
+    background-blend-mode: multiply;
+} 
+
+#home img{
+    box-shadow: 0 0 7px 7px rgb(161, 158, 158);
 }
 
 #home h1{
@@ -39,6 +47,7 @@ body::before {
     background: white;
     font-weight: bold;
     color: black;
+    box-shadow: 0 0 7px 7px rgb(161, 158, 158);
 }
 
 #homeBtn:hover{
